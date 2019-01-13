@@ -42,7 +42,9 @@ public class CXSpacingButton: UIButton {
                 imageEdgeInsets.updateLeftAndRight(left: -spacing / 2)
             case .left:
                 titleEdgeInsets.updateLeftAndRight(left: spacing)
+                imageEdgeInsets.updateLeftAndRight(left: 0)
             case .right:
+                titleEdgeInsets.updateLeftAndRight(left: 0)
                 imageEdgeInsets.updateLeftAndRight(left: -spacing)
             default:
                 break
@@ -75,7 +77,9 @@ public class CXSpacingButton: UIButton {
                 titleEdgeInsets.updateLeftAndRight(left: -titleOffsetX)
             case .left:
                 titleEdgeInsets.updateLeftAndRight(left: -imageRect.width)
+                imageEdgeInsets.updateLeftAndRight(left: 0)
             case .right:
+                titleEdgeInsets.updateLeftAndRight(left: 0)
                 imageEdgeInsets.updateLeftAndRight(left: titleRect.width)
             default:
                 break
@@ -88,9 +92,11 @@ public class CXSpacingButton: UIButton {
                 imageEdgeInsets.updateTopAndBottom(top: -imageOffsetY)
                 titleEdgeInsets.updateTopAndBottom(top: titleOffsetY)
             case .top:
+                imageEdgeInsets.updateTopAndBottom(top: 0)
                 titleEdgeInsets.updateTopAndBottom(top: imageRect.height + spacing)
             case .bottom:
                 imageEdgeInsets.updateTopAndBottom(top: -titleRect.height - spacing)
+                titleEdgeInsets.updateTopAndBottom(top: 0)
             default:
                 break
             }
@@ -107,7 +113,9 @@ public class CXSpacingButton: UIButton {
                 titleEdgeInsets.updateLeftAndRight(left: -titleOffsetX)
             case .left:
                 titleEdgeInsets.updateLeftAndRight(left: -imageRect.width)
+                imageEdgeInsets.updateLeftAndRight(left: 0)
             case .right:
+                titleEdgeInsets.updateLeftAndRight(left: 0)
                 imageEdgeInsets.updateLeftAndRight(left: titleRect.width)
             default:
                 break
@@ -121,7 +129,9 @@ public class CXSpacingButton: UIButton {
                 titleEdgeInsets.updateTopAndBottom(top: -titleOffsetY)
             case .top:
                 imageEdgeInsets.updateTopAndBottom(top: titleRect.height + spacing)
+                titleEdgeInsets.updateTopAndBottom(top: 0)
             case .bottom:
+                imageEdgeInsets.updateTopAndBottom(top: 0)
                 titleEdgeInsets.updateTopAndBottom(top: -imageRect.height - spacing)
             default:
                 break

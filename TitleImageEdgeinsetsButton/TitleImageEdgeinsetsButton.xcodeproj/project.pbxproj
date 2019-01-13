@@ -17,6 +17,7 @@
 		55311C8F21E736B9005D5EC9 /* UIEdgeInset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55311C8E21E736B9005D5EC9 /* UIEdgeInset+Extension.swift */; };
 		55311C9221E7380B005D5EC9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55311C9021E7380B005D5EC9 /* README.md */; };
 		55311C9321E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 55311C9121E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec */; };
+		D370052C21E9A8A000796A79 /* SideButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370052B21E9A8A000796A79 /* SideButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		55311C8E21E736B9005D5EC9 /* UIEdgeInset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInset+Extension.swift"; sourceTree = "<group>"; };
 		55311C9021E7380B005D5EC9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55311C9121E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TitleImageEdgeinsetsButton.podspec; path = ../TitleImageEdgeinsetsButton.podspec; sourceTree = "<group>"; };
+		D370052B21E9A8A000796A79 /* SideButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				55311C7721E733D1005D5EC9 /* AppDelegate.swift */,
 				55311C7921E733D1005D5EC9 /* ViewController.swift */,
+				D370052B21E9A8A000796A79 /* SideButtonViewController.swift */,
 				55311C7B21E733D1005D5EC9 /* Main.storyboard */,
 				55311C7E21E733D2005D5EC9 /* Assets.xcassets */,
 				55311C8021E733D2005D5EC9 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 				55311C8D21E734EA005D5EC9 /* CXSideButton.swift in Sources */,
 				55311C8F21E736B9005D5EC9 /* UIEdgeInset+Extension.swift in Sources */,
 				55311C7A21E733D1005D5EC9 /* ViewController.swift in Sources */,
+				D370052C21E9A8A000796A79 /* SideButtonViewController.swift in Sources */,
 				55311C7821E733D1005D5EC9 /* AppDelegate.swift in Sources */,
 				55311C8B21E734D5005D5EC9 /* CXSpacingButton.swift in Sources */,
 			);
