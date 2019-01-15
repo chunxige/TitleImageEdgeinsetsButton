@@ -9,6 +9,7 @@ button.imagePosition = .right
 button.spacing = 10
 ```
   <img src="https://raw.githubusercontent.com/chunxige/TitleImageEdgeinsetsButton/master/gif/spacing.gif">
+
 * 修改按钮和图片相对于各自最近一条边的距离
 
 ```
