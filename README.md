@@ -1,7 +1,7 @@
 # TitleImageEdgeinsetsButton
 一个轻便的调整button中title和image的间距的和位置的库
 
-1. 修改按钮和图片的相对的位置和间距
+* 修改按钮和图片的相对的位置和间距
 
 ```
 let button = CXSpacingButton()
