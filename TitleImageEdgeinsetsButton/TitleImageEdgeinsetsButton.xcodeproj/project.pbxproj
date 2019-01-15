@@ -17,6 +17,8 @@
 		55311C8F21E736B9005D5EC9 /* UIEdgeInset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55311C8E21E736B9005D5EC9 /* UIEdgeInset+Extension.swift */; };
 		55311C9221E7380B005D5EC9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55311C9021E7380B005D5EC9 /* README.md */; };
 		55311C9321E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 55311C9121E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec */; };
+		D368E1FE21EE1C740000BD6D /* side.png in Resources */ = {isa = PBXBuildFile; fileRef = D368E1FC21EE1C740000BD6D /* side.png */; };
+		D368E1FF21EE1C740000BD6D /* spacing.gif in Resources */ = {isa = PBXBuildFile; fileRef = D368E1FD21EE1C740000BD6D /* spacing.gif */; };
 		D370052C21E9A8A000796A79 /* SideButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370052B21E9A8A000796A79 /* SideButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		55311C8E21E736B9005D5EC9 /* UIEdgeInset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInset+Extension.swift"; sourceTree = "<group>"; };
 		55311C9021E7380B005D5EC9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55311C9121E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TitleImageEdgeinsetsButton.podspec; path = ../TitleImageEdgeinsetsButton.podspec; sourceTree = "<group>"; };
+		D368E1FC21EE1C740000BD6D /* side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side.png; sourceTree = "<group>"; };
+		D368E1FD21EE1C740000BD6D /* spacing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spacing.gif; sourceTree = "<group>"; };
 		D370052B21E9A8A000796A79 /* SideButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				55311C9021E7380B005D5EC9 /* README.md */,
+				D368E1FB21EE1C740000BD6D /* gif */,
 				55311C9121E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec */,
 				55311C8921E734A6005D5EC9 /* Classes */,
 				55311C7621E733D1005D5EC9 /* TitleImageEdgeinsetsButton */,
@@ -89,6 +94,16 @@
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		D368E1FB21EE1C740000BD6D /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				D368E1FC21EE1C740000BD6D /* side.png */,
+				D368E1FD21EE1C740000BD6D /* spacing.gif */,
+			);
+			name = gif;
+			path = ../gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D368E1FF21EE1C740000BD6D /* spacing.gif in Resources */,
 				55311C9321E7380B005D5EC9 /* TitleImageEdgeinsetsButton.podspec in Resources */,
 				55311C8221E733D2005D5EC9 /* LaunchScreen.storyboard in Resources */,
+				D368E1FE21EE1C740000BD6D /* side.png in Resources */,
 				55311C7F21E733D2005D5EC9 /* Assets.xcassets in Resources */,
 				55311C9221E7380B005D5EC9 /* README.md in Resources */,
 				55311C7D21E733D1005D5EC9 /* Main.storyboard in Resources */,
