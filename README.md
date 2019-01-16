@@ -17,3 +17,9 @@ let button = CXSideButton()
 button.imageSideAlignment = .left(10, titleRight: 10)
 ```
 <img src="https://raw.githubusercontent.com/chunxige/TitleImageEdgeinsetsButton/master/gif/side.png">
+
+#安装
+推荐CocoaPods
+```
+pod 'TitleImageEdgeinsetsButton', '~> 0.0.2'
+```
