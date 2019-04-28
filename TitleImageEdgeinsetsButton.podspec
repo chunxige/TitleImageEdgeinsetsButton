@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TitleImageEdgeinsetsButton"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "轻松调整button中title和image的位置和间距"
   s.description  = <<-DESC
     纠结button中title和image间距和位置的同学们，轻松解决
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "README.md" }
   s.author             = { "chunxi" => "" }
   s.platform     = :ios, "9.0"
-  s.swift_version = "4.0"
+  s.swift_version = "4.2"
   s.source       = { :git => "https://github.com/chunxige/TitleImageEdgeinsetsButton.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "Classes/**/*.swift"
 end
