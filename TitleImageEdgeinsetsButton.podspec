@@ -14,9 +14,8 @@ Pod::Spec.new do |s|
     纠结button中title和image间距和位置的同学们，轻松解决
                    DESC
   s.homepage     = "https://github.com/chunxige/TitleImageEdgeinsetsButton"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = { :type => "MIT", :file => "README.md" }
-  s.author             = { "chunxi" => "" }
+  s.author       = "chunxi"
   s.platform     = :ios, "9.0"
   s.swift_version = "4.2"
   s.source       = { :git => "https://github.com/chunxige/TitleImageEdgeinsetsButton.git", :tag => "#{s.version}" }
